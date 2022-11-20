@@ -52,6 +52,8 @@ def get_audio(url: str, folder: str, name: str) -> None:
 
 
 def download_data():
+    if not os.path.exists("data/"):
+        os.makedirs("data/")
     languages = get_languages()
     for language in languages:
         if language in ["english", "russian", "german", "mandarin"]:
