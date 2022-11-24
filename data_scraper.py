@@ -48,7 +48,7 @@ def get_audio(url: str, folder: str, name: str) -> None:
     audio = AudioSegment.from_mp3(audio)
     if not os.path.exists(f"data/{folder}/"):
         os.makedirs(f"data/{folder}/")
-    audio.export(f"data/{folder}/{name}.mp3", format="mp3")
+    audio.export(f"data/{folder}/{name}.wav", format="wav")
 
 
 def download_data():

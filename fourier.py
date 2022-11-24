@@ -1,0 +1,2 @@
+def fourier_series():
+  

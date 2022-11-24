@@ -3,3 +3,7 @@ pandas
 BeautifulSoup4
 pydub
 ipykernel
+scipy
+matplotlib
+plotly
+pygame
