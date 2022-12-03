@@ -56,7 +56,7 @@ def download_data():
         os.makedirs("data/")
     languages = get_languages()
     for language in languages:
-        if language in ["english", "russian", "german", "mandarin"]:
+        if language in ["english", "russian", "german", "dutch", "swedish", "mandarin", "arabic", "spanish"]:
             print(f"Downloading {language}...")
             urls = get_language_urls(language)
             for name, url in urls.items():
