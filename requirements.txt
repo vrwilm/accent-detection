@@ -7,3 +7,5 @@ scipy
 matplotlib
 plotly
 pygame
+librosa
+tensorflow
